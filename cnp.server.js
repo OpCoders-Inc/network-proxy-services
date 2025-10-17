@@ -6,8 +6,9 @@
 //systemctl start c64os.cnpserver.service
 //systemctl stop  c64os.cnpserver.service
 
+const VERSION = "1.0";
 
-console.log("Commodore Network Protocol (CNP) server");
+console.log("Commodore Network Protocol (CNP) server v"+VERSION);
 console.log("Copyright (c) 2024 OpCoders Inc.\n");
 
 const networkModule = require('net');
